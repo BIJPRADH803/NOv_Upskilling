@@ -1,0 +1,14 @@
+package com.cg.leetcode;
+
+import java.time.LocalDate;
+
+public class date {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		LocalDate date=LocalDate.now();
+		
+
+}

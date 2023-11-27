@@ -1,0 +1,18 @@
+package com.cg.leetcode;
+
+import java.time.LocalDate;
+
+public class date {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		LocalDate date=LocalDate.now();
+		LocalDate yesterday=date.minusDays(1);
+		System.out.println("today date is: " +date);
+		System.out.println("yesterday  is: " +yesterday);
+		
+		
+	}
+}
